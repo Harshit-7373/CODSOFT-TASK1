@@ -1,0 +1,212 @@
+body{
+    font-family: 'arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Header */
+header {
+    background-color: #dce0d9;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+header  ul {
+    padding: 0;
+    margin: 0;
+}
+
+header  ul li {
+    display: inline;
+    margin: 0 17px;
+    color: black;
+}
+
+header  ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header  ul li a:hover {
+    color: whitesmoke;
+}
+
+/* Hero Section */
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+#main h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#main p {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+
+
+/* About Section */
+#about {
+    padding: 100px 0;
+    text-align: center;
+    background-color: white;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#about img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+#about p {
+    max-width: 600px;
+    color: black;
+}
+
+
+/*SKILLS SECTION*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#skills {
+    background-color: #ADBBDA; 
+    text-align: center; 
+    border-radius: 15px; 
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    color: #333; 
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.skills-content ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.skills-content li {
+    list-style-type: none;
+    background-color: white; 
+    color: black; 
+    font-size: 1.4em; 
+    margin: 5px; 
+    padding: 16px 23px; 
+    border-radius: 25px; 
+}
+
+
+/* Projects Section */
+#projects {
+    padding: 100px 0;
+    background-color: #ADBBDA;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    gap: 15px;
+}
+
+.project-box {
+    background-color: #f4f4f4;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+
+
+/* Contact Section */
+#contact {
+    padding: 100px 0;
+    background-color: #EDE8F5;
+    text-align: center;
+}
+
+.container p{
+    color: black;
+}
+
+
+/* LinkedIn Button Styles */
+.linkedin-btn{
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.linkedin-btn:hover {
+    background-color: #005582;
+}
+
+
+
+/*Footer Section*/
+.container-last{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 100px;
+}
+
+
+.resume-btn{
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 300px;
+    display: inline-block;
+}
